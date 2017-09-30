@@ -33,7 +33,7 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 
 ## Usage Full documentation 
 
-Read the FlexSlider documentation here https://github.com/Shopify/draggable
+Read the Shopify draggable.js documentation here https://github.com/Shopify/draggable
 
 ## Development
 
