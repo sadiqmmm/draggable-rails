@@ -1,4 +1,4 @@
-# flex-slider-rails
+# draggable-rails
 [![Gem Version](https://badge.fury.io/rb/draggable-rails.svg)](http://badge.fury.io/rb/draggable-rails)
 
 draggable-rails gem is the integration of https://shopify.github.io/draggable/ javascript library for your Rails 4 and Rails 5 application.
