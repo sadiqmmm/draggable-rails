@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sadiqmmm@gmail.com"]
 
   spec.summary       = spec.description
-  spec.description   = 'This gem provides the draggable.js Javascript library for your Rails 4 and Rails 5 application.'
+  spec.description   = 'draggable-rails gem is the integration of https://shopify.github.io/draggable/ javascript library for your Rails 4 and Rails 5 application.'
   spec.homepage      = 'https://github.com/sadiqmmm/draggable-rails'
   spec.license       = "MIT"
 
