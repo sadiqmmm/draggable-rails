@@ -30,7 +30,11 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 //= require draggable
 ```
 
-#### Working Example code for draggable li element you can see the event changes in the browser console.
+## Example code:
+
+Working example code for draggable li element you can see the event changes in the browser console.
+
+Note: I am using jquery.
 
 You can add a script.js file `app/assets/javascripts/script.js` and add the following line:
 
