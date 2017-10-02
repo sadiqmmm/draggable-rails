@@ -32,6 +32,8 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 
 #### Working Example code for draggable li element you can see the event changes in the browser console.
 
+You can add a script.js file `app/assets/javascripts/script.js` and add the following line:
+
 ``` javascript
 
 $(document).on("turbolinks:load", function() {	  
@@ -45,6 +47,8 @@ $(document).on("turbolinks:load", function() {
 });
 
 ```
+
+index.html.erb file `app/views/pages/index.html.erb` and add the following line:
 
 ``` html
 <ul>
