@@ -30,6 +30,29 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 //= require draggable
 ```
 
+## Working example code for draggable li element you can see the event changes in the browser console.
+
+``` javascript
+
+	$(document).on("turbolinks:load", function() {	  
+
+	  new Draggable.Draggable(document.querySelectorAll('ul'), {
+	    draggable: 'li'
+	  })
+	  .on('drag:start', () => console.log('drag:start'))
+	  .on('drag:move',  () => console.log('drag:move'))
+	  .on('drag:stop',  () => console.log('drag:stop'));
+	});
+
+```
+
+``` html
+	<ul>
+	  <li>One</li>
+	  <li>Two</li>
+	  <li>Three</li>
+	</ul>
+```
 
 ## Usage Full documentation 
 
