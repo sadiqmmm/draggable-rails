@@ -34,7 +34,7 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 
 Working example code for draggable li element you can see the event changes in the browser console.
 
-Note: I am using jquery.
+Note: I am using jQuery.
 
 You can add a script.js file `app/assets/javascripts/script.js` and add the following line:
 
